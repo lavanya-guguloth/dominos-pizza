@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino's Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav {
+            display : flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding: 18px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 30px;
+        }
+        nav>h2 {
+            font-size: 22px;
+            font-weight: 700;
+            
+        }
+        nav .links {
+            display: flex;
+            gap: 20px;
+        }
+        nav button {
+            padding: 10px 20px;
+            background-color: #e63e3e;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            
+        }
+         section>h2{
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-size: 25px;
+         }
+         .cards {
+            width : 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+         }
+            .card >div{
+                background: #e43d3d;
+                padding: 20px;
+                text-align: center;
+                margin-bottom:15px ;
+            }
+            .cards img{
+                width: 140%;
+                height: 140px;
+                border-radius: 50px;
+                margin-bottom : 15px;
+            } 
+            .cards h3{
+                margin-bottom: 10px;
+                
+            }
+            .cards p{
+                font-size :13px;
+                margin-bottom:15px;
+
+            }
+            .cards button{
+                padding: 10px 15px;
+                background-color: white;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 40px;
+            border: 1px solid lightgray;
+        }
+        nav>h2{
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+        nav .links {
+            display: flex;
+            gap: 20px;
+        }
+        nav .links a {
+            text-decoration: none;;
+            font-size: 14px;
+            color: #333;
+            
+        }
+        nav button {
+            padding: 10px 20px;
+            background-color: #e63e3e;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Domino's Pizza</h2>
+        <div class="links">
+            <a href="#">our menu</a>
+            <a href="#">domino's stories</a>
+            <a href="#">gift card</a>
+            <a href="#">corporate enquiry</a>
+            <a href="#">contact</a>
+        </div>
+        <button>Download App</button>
+        <section>
+            <h2>order</h2>
+            <div class="cards">
+                
+                    <div>
+                        <img src="C:\Users\GUGUL\OneDrive\Desktop.png".png alt="Pepperoni Pizza">
+                        <h3>veg pizza</h3>
+                        <p>a delight for veggie lovers!choose from our wide range of delicious vegetarian pizzas.</p>
+                        <button>VIEW ALL</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="https://www.dominos.co.in/files/items/Margherita_Pizza.jpg" alt="Margherita Pizza">
+                        <h3>OUR MENU</h3>
+                        <p>Indulge into mouth watering taste of pizza mania range,perfect for food cravings.</p>
+                        <button>VIEW ALL</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="https://www.dominos.co.in/files/items/Veggie_Lovers_Pizza.jpg" alt="Veggie Lovers Pizza">
+                        <h3>OUR MENU</h3>
+                        <p>choose your favourite non-veg pizzas with toppings and choices.</p>
+                        <button>VIEW ALL</button>
+                    </div>
+                </div>
+        </section>
+    </nav>
+    
+</body>
+</html>
